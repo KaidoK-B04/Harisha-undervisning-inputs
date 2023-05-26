@@ -1,0 +1,127 @@
+body, html {
+  height: 100%;
+  background-color: #6b8aa9;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("f1.JPG");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax2 {
+  /* The image used */
+  background-image: url("f2.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("f3.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: url("f4.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5 {
+  /* The image used */
+  background-image: url("f5.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid 2px #e30d0d;
+  height: fit-content;
+  background-color: white;
+}
+.date {
+  border: solid 2px #FFFFFF;
+  flex-direction: column;
+  display: flex;
+  padding-bottom: 20px;
+}
+.number {
+  border: solid 2px #FFFFFF;
+  flex-direction: column;
+  display: flex;
+}
+.file {
+  border: solid 2px #FFFFFF; 
+  flex-direction: column;
+  display: flex; 
+}
+.headers {
+  font-size: 24px;
+  font-weight: bold;
+}
+button {
+  background-color: rgb(246, 37, 0);
+  margin: 0;
+}
+.save-button {
+  height: 100px;
+  width: 70px;
+  border: solid;
+  border-width: 10px;
+  border-radius: 5px;
+  border-color: white;
+  font-size: 20px;
+}
+.browse-button {
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: rgb(120, 120, 120);
+  padding: 30px;
+}
