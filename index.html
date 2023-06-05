@@ -14,117 +14,87 @@
     <p>When you see the DESTINATION and you want to reach it..</p>
   </div>
     <br>
-      <div class="parallax1"></div>
+
+      <div class="parallax1" style="background-image: url('media/f1.jpg');"></div>
 
       <div style="height:auto;background-color:#6b8aa9;font-size:36px; color:white;">
-    <p>JUMP IN ! Don't be afraid to fall..</p>
-  </div>
-      <section class="parallax2"></section>
+        <p>JUMP IN ! Don't be afraid to fall..</p>
+      </div>
+      <section class="parallax2" style="background-image: url('media/f2.jpg');"></section>
   
       <div style="height:auto;background-color:#6b8aa9;font-size:36px; color:white;">
-    <p>OPEN your WINGS..</p>
-  </div>
-      <section class="parallax3"></section>
+        <p>OPEN your WINGS..</p>
+      </div>
+      <section class="parallax3" style="background-image: url('media/f3.jpg');"></section>
 
       <div style="height:auto;background-color:#6b8aa9;font-size:36px; color:white;">
-    <p>Don't be disturbed BY ANYTHING !</p>
-  </div>
-      <section class="parallax4"></section>
+        <p>Don't be disturbed BY ANYTHING !</p>
+      </div>
+      <section class="parallax4" style="background-image: url('media/f4.jpg');"></section>
 
       <div style="height:auto;background-color:#6b8aa9;font-size:36px; color:white;">
-     <p>FEEL the FLOW..</p>
-  </div>
-      <section class="parallax5"></section>
+        <p>FEEL the FLOW..</p>
+      </div>
+      <section class="parallax5" style="background-image: url('media/f5.jpg');"></section>
 
       <div style="height:auto;background-color:#6b8aa9;font-size:36px; color:white;">
         <p>ENJOY THE FLIGHT..</p>
-     </div>
+      </div>
 
 
 
-     <form action=".php">
+
+
+<form action=".php">
   <div class="flexbox">
     
+    <button><input class="save-button" type="submit" value="Cancel"></button>
+
     <div class="date">
       <p class="headers">Project dates!</p>
       <label>Start</label>
       <input class="browse-button" type="date" name="" id="" min="2023-01-01" max="2023-12-01"> Deadline 
       <input class="browse-button" type="date" pattern="\d{2}-\d{2}-\d{4}" placeholder="DD-MM-YYYY" required>
     </div>
-   
-    <div class="number">
-      <p class="headers">Work hours pr.day</p>
-     <input class="browse-button" type="number" name="" id="" min="1" max="8">
+
+  <div class="div-column">
+    <div class="div-row">
+        <div class="number">
+          <p class="headers">Working time</p>
+          <label>Hours pr.day</label>
+          <input class="browse-button" type="number" name="" id="" min="1" max="8">
+        </div>
+      
+        <div class="file">
+          <p class="headers">Documentation</p>
+          <label>Add files</label>
+          <input class="browse-button" type="file" multiple name="" id="" accept=".jpg, .pdf">
+        </div>
     </div>
-    
-      <div class="file">
-        <p class="headers">Documentation, -files!</p>
-        <label></label>
-        <input class="browse-button" type="file" multiple name="" id="" accept=".jpg, .pdf">
-      </div>
-    <button><input class="save-button" type="submit" value="save"></button>
+          <label>Write description</label>
+          <input type="text" id="description" placeholder="Project name">
+          <textarea type="text" placeholder="Add description" rows="3" cols="2"></textarea>
+  </div>
+
+    <button><input class="save-button" type="submit" value="Save"></button>
   </div>
 </form>
 
 
 
 
+  <div id="gradient">
 
-
-
-
-
-
-
-
-
-    <br><br><br><br><br>  
-  <div class="color-range">
-    <p>Important</p>
-        <div class="color">
-          <label>Choose color</label>
-          <input type="color" name="" id="">
-        </div>
-
-        <div class="range">
-        <input type="range" name="" id="">
-        </div>
-  </div>
-    
-
-    <div class="url">
-     <input type="url" name="" id="">
+    <video class="flowers-video"  src="media/flowers.mp4" controls poster="media/video_thumbnail.png"></video>
+    <div class="column-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.8093953889893!2d5.324206377127162!3d60.38230847514126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cfb988852a0bd%3A0x79b56c28dee3129b!2sJobloop%20AS!5e0!3m2!1sno!2sno!4v1685606820586!5m2!1sno!2sno" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p class="audio_intro">This is the audio file</p>
+      <audio src="media/singsang.wav" controls type="wav"></audio>
     </div>
-    
-    <div class="time">
-      <label>Choose time</label>
-      <input type="time" name="" id="">
-    </div>
-    
-    <div class="browsers">
-     <input list="browsers">Browsers value 1, 2.</input>
-     <datalist id="browsers">
-       <option value="1">
-         <option value="2">
-     </datalist>
-    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SBmSRK3feww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-   <form action=".php">
-     datalis vs select-(only given inputs)<br>
-     <label for="">Choose Gender</label>
-     <input type="radio" name="Gender" id="">
-     <label for="">Choose Gender</label>
-     <input type="radio" name="Gender" id="">
-     <br>
-     <label for="">Choose Gender</label>
-     <input type="checkbox" name="Gender" id="">
-     <br>
-     <label for="Gender">Choose Gender</label>
-     <input type="checkbox" name="" id="">
-   </form>
+  </div> 
 
-   
-
-
+  
 </body>
 </html>
